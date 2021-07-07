@@ -67,3 +67,200 @@ font-family:MV Boli;
     background-size: 500px;
     background-repeat: no-repeat;
 }
+
+reviews.component.css
+
+.page
+{
+    background-image: url("C:/Users/DELL/Restaurant/src/assets/Images/background-rest-img.png");
+    background-repeat: no repeat;
+}
+
+h3
+{
+    text-align: left;
+    font-family:Script MT Bold;
+    color: white;
+}
+
+button
+{
+    color: white;
+    background-color:rgb(64, 172, 223);
+}
+.b
+{
+    text-align:center;
+}
+h4
+{
+    font-size: 30px;
+    font-family: Script MT Bold;
+    
+}
+.review
+{
+    border: rgb(88, 123, 238) solid 1px;
+    font-family: Script MT Bold;
+    padding: 7px;
+    text-align: justify;
+    font-size:15px ;
+    background-color:rgb(252, 252, 252);
+    
+}
+*
+{
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #080101;
+    color:rgb(218, 165, 32);
+  }
+
+  table-booking.component.css
+
+h2
+{
+    font-size:50px;
+    text-align:left;
+    font-family:Modern Love;
+    text-shadow: 3px 2px white;
+    color: darkred;
+    border-bottom:3px solid black;
+
+}
+
+#para1
+{
+font-size:25px;
+}
+
+#para2
+{
+font-size:20px;
+color:rgb(248, 11, 70);
+padding-right:5px;
+padding-left:2px;
+margin-right:10px;
+font-family:Modern Love;
+
+}
+p.para1-bg
+{
+opacity:0.6;
+}
+
+#para3
+{
+border-top:1.5px solid rgb(78, 140, 231);
+border-bottom:1.5px solid rgb(86, 171, 250);
+font-size:15px;
+text-align:center;
+}
+
+#para4
+{
+border-top:1.5px solid black;
+border-bottom:1.5px solid black;
+font-size:15px;
+text-align:center;
+}
+
+#para5
+{
+    background-image: url("C:/Users/DELL/Restaurant/src/assets/Images/Chocolate Milkshake.png");
+    background-repeat:no-repeat;
+    border-top-left-radius: 3cm;
+    border-bottom-left-radius: 1cm;
+
+}
+
+home-deliver.component.css
+
+h2
+{
+font-size:50px;
+text-align: center;
+font-family: Harlow Solid;
+text-decoration: underline;
+text-shadow: 3px 2px white;
+color: rgb(218, 165, 32);
+}
+
+h4
+{
+font-size:25px;
+color: rgb(218, 165, 32);
+text-align: left;
+font-family: Comic Sans MS;
+background-image: url("C:/Users/DELL/Restaurant/src/assets/Images/background-rest-img.png");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+margin-left: 30px;
+margin-right:30px;
+}
+
+h5
+{
+font-size:25px;
+margin-right: 100px;
+margin-left: 100px;
+}
+
+about-us.component.css
+
+#para1
+{
+    font-size: 30px;
+    font-family: Gabriola;
+    margin: 20px;
+    border:ivory;
+    padding: 20px;
+    text-align: justify;
+color:rgb(218, 165, 32);
+}
+h2
+{
+    font-family: Ink Free;
+    color: black;
+    text-shadow: black;
+    font-size: 50px;
+    border-bottom:3px solid black;
+}
+
