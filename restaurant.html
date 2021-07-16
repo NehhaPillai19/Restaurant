@@ -1,9 +1,8 @@
 app.component.html
 
-
 <header>
 <div class="common">
-  <h1>The flamingo Restaurant</h1>
+  <h1>The Flamingo -Restaurant</h1>
 </div>
 
 <div class="container">
@@ -13,36 +12,41 @@ app.component.html
         <a href="/home-page"><h4>Home</h4></a>
       </div>
     </div>
+
     <div class="col-md-2">
       <div class="customDiv">
-        <a routerLink="menu"><h4>Menu</h4></a>
+        <a href="/Menu"><h4>Menu</h4></a>
+      </div>
+    </div>
+   
+     
+
+    <div class="col-md-2">
+      <div class="customDiv">
+        <a href="/reviews"><h4>Reviews</h4></a>
       </div>
     </div>
     <div class="col-md-2">
       <div class="customDiv">
-        <a routerLink="reviews"><h4>Reviews</h4></a>
+        <a href="/table-bookings"><h4>Table Booking</h4></a>
       </div>
     </div>
     <div class="col-md-2">
       <div class="customDiv">
-        <a routerLink="table
-        ]op=booking"><h4>Table Booking</h4></a>
+        <a href="/Order"><h4>Order</h4></a>
       </div>
     </div>
+  
     <div class="col-md-2">
       <div class="customDiv">
-        <a routerLink="homedelivery"><h4>Home Delivery</h4></a>
-      </div>
-    </div>
-    <div class="col-md-2">
-      <div class="customDiv">
-        <a routerLink="aboutus"><h4>About Us</h4></a>
+        <a href="/About-Us"><h4>About Us</h4></a>
       </div>
     </div>
   </div>
 </div>
 </header>
 <router-outlet></router-outlet>
+
 
 home-page.component.html
 
@@ -51,7 +55,81 @@ home-page.component.html
                 <br>Count the Memories<br>Not the Calories! <br><br>
     </p><br>
     
-    <h2>Overview:</h2>
+            <h2>Gallery</h2><br>
+            <h4>North Indian</h4>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <p id="para3"><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+                    </div>
+                    <div class="col-md-4">
+                        <p id="para4"><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+                    </div>
+                    <div class="col-md-4">
+                        <p id="para5"><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+                    </div>
+                    <div class="col-md-4">
+                        <p id="para6"><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+                    </div>
+                    <div class="col-md-4">
+                        <p id="para7"><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+                    </div>
+                    <div class="col-md-4">
+                        <p id="para8"><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+                    </div>
+                </div>
+            </div>
+            <h4>South Indian</h4>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <p id="para9"><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+                    </div>
+                    <div class="col-md-4">
+                        <p id="para10"><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+                    </div>
+                    <div class="col-md-4">
+                        <p id="para11"><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+                    </div>
+                    <div class="col-md-4">
+                        <p id="para12"><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+                    </div>
+                    <div class="col-md-4">
+                        <p id="para13"><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+                    </div>
+                    <div class="col-md-4">
+                        <p id="para14"><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+                    </div>
+                </div>
+            </div>
+          </div> 
+
+          <h4>Shakes & Desserts</h4>
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-4">
+                      <p id="para15"><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+                  </div>
+                  <div class="col-md-4">
+                      <p id="para16"><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+                  </div>
+                  <div class="col-md-4">
+                      <p id="para17"><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+                  </div>
+                  <div class="col-md-4">
+                      <p id="para18"><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+                  </div>
+                  <div class="col-md-4">
+                      <p id="para19"><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+                  </div>
+                  <div class="col-md-4">
+                      <p id="para20"><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+                  </div>
+              </div>
+          </div>
+  
+          
+        <h2>Overview:</h2>
         <br>
     <div class="container">
         <div class="row">
@@ -79,13 +157,36 @@ home-page.component.html
                     click here </a>for google map loaction<br>
                 </div>
             </div>
+        
            
             
         </div>
-    </div>
+ 
     <br>
     
+menu.component.html
+             <div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <p id="para3"><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+        </div>
+<br><br>
+<div class="container">
+
+<div class="row">
+    <div class="col-md-4">
+        <p id="para4"><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <p id="para5"><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+            </div>
+    <br><br>
+   
+    
   reviews.component.html
+          
   <div class="page">
 <h3>Your review encourages us to improve ourself! </h3>
 <br>
@@ -138,7 +239,7 @@ home-page.component.html
         <p>This place is great! Atmosphere is chill and cool but the staff is also really friendly. They know what they’re doing and what they’re talking about, and you can tell making the customers happy is their main priority. Food is pretty good, some italian classics and some twists, and for their prices it’s 100% worth it.</p>
       </div>
     </div>
-  
+
     <div class="column">
       <div class="card">
         <h3>Preethi:</h3>
@@ -162,9 +263,11 @@ home-page.component.html
     </div>
   </div>
   
+
+  
   table-booking.component.html
   
-  <div class="container">
+ <div class="container">
     <div class="row">
         <div class="col-md-7 col-sm-10">
             <div class="customDiv">
@@ -177,13 +280,15 @@ home-page.component.html
                     <input type="date"><br><br>
                     Phone Number:<br>
                     <input type="text"><br><br>
-                    Number of people:<br>
+                    Number of tables:<br>
                     <input type="number" min=1 max=20><br><br>
                     Time of booking:
                     <input type="time"><br>
                     <small>Select a time from 8am to 11pm</small></p>
                 </form>
-                <button type="button">Confirm</button>
+                <button type="button" class="btn btn-primary btn-lg ">Confirm</button>
+               
+            
                          </div>
         </div>
         <div class="col-md-5 col-sm-2">
@@ -193,21 +298,54 @@ home-page.component.html
     </div>
 </div>
 
+
   
-  home-delivery.component.html
+  order.component.html
   
-  <h5>
-    We are happy to announce that now we are part of Swiggy and
-    Zomato services to serve you at your door step.</h5>
+<div class="container">
+    <div class="row">
+        <div class="col-md-7 col-sm-10">
+            <div class="customDiv">
+                <form><p id="para1">
+                   Order Details:</p>
+                    <p id="para2">
+                    Name:
+                    <input type="text"><br><br>
+                    Email:
+                    <input type="text"><br><br>
+                    Phone Number:
+                    <input type="text"><br><br>
+                    Item Name:
+                    <input type="text"><br><br>
+                    Quantity:
+                    <input type="number" min=1 max=10><br><br>
+                     Address:
+                    <input type="text"><br><br>
+                    </p>
+                </form>
+                
+                <button type="button" class="btn btn-primary btn-lg ">Submit</button>
+            
+                         </div>
+        </div>
+        <div class="col-md-5 col-sm-2">
+            <div class="customDiv"><p id="para5"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+            </div>
+        </div>
+    </div>
+</div>
+<h5>
+    Home Delivery</h5>
     <h4><br>
-    Zomato
+    Zomato:
     <br>
-    <a href="https://www.zomato.com/ncr">click here</a>to redirect to zomato.
+    <a href="https://www.zomato.com/ncr">click here</a> to redirect to zomato.
     <br><br><br>
-    Swiggy
+    Swiggy:
     <br><br>
     <a href="https://www.swiggy.com/">click here</a> to redirect to swiggy.
     <br><br><br><br><br><br><br><br><br></h4>
+
   
  about-us.component.html
   
