@@ -1,0 +1,34 @@
+menu.component.css
+
+#para3
+{
+    background-image: url(  "C:/Users/DELL/Restaurant/src/assets/Images/North Indian Menu.png");
+    background-position: top-left;
+    background-size: 500px;
+    height: 500%;
+    width: 420%;
+
+    background-repeat: no-repeat;
+}
+
+#para4
+{
+    background-image: url(  "C:/Users/DELL/Restaurant/src/assets/Images/South Indian Menu.png");
+    background-position: top-left;
+    background-size: 500px;
+    height: 500%;
+    width: 420%;
+
+    background-repeat: no-repeat;
+}
+#para5
+{
+    background-image: url(  "C:/Users/DELL/Restaurant/src/assets/Images/Shakes Menu.png");
+    background-position: top-left;
+    background-size: 500px;
+    height: 500%;
+    width: 420%;
+
+    background-repeat: no-repeat;
+}
+
