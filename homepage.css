@@ -1,0 +1,154 @@
+home-page.component.css
+
+{
+background-image: url("C:/Users/DELL/Restaurant/src/assets/Images/background-rest-img.png");
+background-blend-mode:soft-light;
+background-repeat: no-repeat;
+background-position: bottom ;
+background-size: cover;
+font-family:Bradley Hand ITC;
+text-align:left;
+color:white;
+font-size:75px;
+text-shadow: 3px 3px black;
+}
+h2
+{
+font-size:50px;
+text-align:left;
+font-family:Freestyle Script;
+color: rgb(218, 165, 32);
+border-bottom:3px solid rgb(218, 165, 32);
+background-color: rgb(2, 0, 0);
+}
+
+h3
+{
+font-size:30px;
+font-family:Freestyle Script;
+}
+
+.grid
+{
+    margin:2px;
+    background-color: rgb(10, 10, 10);
+    min-height:100px;
+}
+#para3
+{
+    background-image: url("C:/Users/DELL/Restaurant/src/assets/Images/Roti.png");
+    background-position: center;
+    background-size: 500px;
+    background-repeat: no-repeat;
+}
+#para4
+{
+    background-image: url("C:/Users/DELL/Restaurant/src/assets/Images/PaneerButterMasala.png");
+    background-position:center;
+    background-size: 300px;
+    background-repeat: no-repeat;
+}
+#para5
+{
+    background-image: url("C:/Users/DELL/Restaurant/src/assets/Images/TawaButterNaan.png");
+    background-position: bottom;
+    background-size: 300px;
+}
+#para6
+{
+    background-image: url("C:/Users/DELL/Restaurant/src/assets/Images/DAL MAKHANI .png");
+    background-position: center;
+    background-size: 300px;
+}
+#para7
+{
+    background-image: url("C:/Users/DELL/Restaurant/src/assets/Images/KolkataChickenBiriyani.png");
+    background-size: 290px;
+    background-position: center;
+}
+#para8
+{
+    background-image: url("C:/Users/DELL/Restaurant/src/assets/Images/North Indian Thali.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#para9
+{
+    background-image: url("C:/Users/DELL/Restaurant/src/assets/Images/South Indian Breakfast Thali.png");
+    background-position: center;
+    background-size: 500px;
+    background-repeat: no-repeat;
+}
+#para10
+{
+    background-image: url("C:/Users/DELL/Restaurant/src/assets/Images/Poli.png");
+    background-position:center;
+    background-size: 300px;
+    background-repeat: no-repeat;
+}
+#para11
+{
+    background-image: url("C:/Users/DELL/Restaurant/src/assets/Images/Masala Dosa .png");
+    background-position: bottom;
+    background-size: 300px;
+}
+#para12
+{
+    background-image: url("C:/Users/DELL/Restaurant/src/assets/Images/Biryani Cooked Inside Bamboo.png");
+    background-position: center;
+    background-size: 300px;
+}
+#para13
+{
+    background-image: url("C:/Users/DELL/Restaurant/src/assets/Images/Meals.png");
+    background-size: 290px;
+    background-position: center;
+}
+#para14
+{
+    background-image: url("C:/Users/DELL/Restaurant/src/assets/Images/Poori masala.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#para15
+{
+    background-image: url("C:/Users/DELL/Restaurant/src/assets/Images/Blueberry Banana Muffins.png");
+    background-position: center;
+    background-size: 300px;
+    background-repeat: no-repeat;
+}
+#para16
+{
+    background-image: url("C:/Users/DELL/Restaurant/src/assets/Images/Mango Lassi.png");
+    background-position:center;
+    background-size: 280px;
+    background-repeat: no-repeat;
+}
+#para17
+{
+    background-image: url("C:/Users/DELL/Restaurant/src/assets/Images/Chia, Acai and Strawberry Layered Breakfast Jar.png");
+    background-position: bottom;
+    background-size: 280px;
+}
+#para18
+{
+    background-image: url("C:/Users/DELL/Restaurant/src/assets/Images/Cherry Pistachio Pound Cake.png");
+    background-position: center;
+    background-size: 290px;
+}
+#para19
+{
+    background-image: url("C:/Users/DELL/Restaurant/src/assets/Images/OREO MILKSHAKE .png");
+    background-size: 280px;
+    background-position: center;
+}
+#para20
+{
+    background-image: url("C:/Users/DELL/Restaurant/src/assets/Images/Virgin Mojito.png");
+    background-size: 290px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
